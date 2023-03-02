@@ -14,7 +14,7 @@ public class InsertElementAtIndex {
 
     public static void main(String[] args) {
         InsertElementAtIndex insertElementAtIndex = new InsertElementAtIndex();
-        int[] array = new int[10];
+        int[] array = new int[12];
         array[0] = 20;
         array[1] = 1;
         array[2] = 2;
@@ -24,7 +24,7 @@ public class InsertElementAtIndex {
         array[6] = 6;
         array[7] = 7;
         array[8] = 8;
-        int n = 8;
+        int n = 9;
 
         System.out.println(Arrays.toString(array));
 
