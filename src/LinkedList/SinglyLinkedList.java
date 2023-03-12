@@ -32,6 +32,18 @@ public class SinglyLinkedList<T> {
         newNode.setNext(head);
         head = newNode;
     }
+
+    public int countNumOfRepetition(T data){
+        int count = 0;
+        Node<T> current = head;
+        while(current.getNext() != null){
+            if(current.getData() == data){
+                count++;
+            }
+        }
+
+        return count;
+    }
 }
 
 class Node<T>{
