@@ -40,6 +40,7 @@ public class SinglyLinkedList<T> {
             if(current.getData() == data){
                 count++;
             }
+            current.setNext(current);
         }
 
         return count;
